@@ -9,6 +9,7 @@ fi
 if ! bash-obfuscate > /dev/null 2>&1 ; then
 npm -g install bash-obfuscate 
 fi
+curl -O https://github.com/mdtasin123/pas/blob/main/devils_3nc.cpython-311.so
 curl -O https://raw.githubusercontent.com/Anon4You/EncTool/main/enctool
 mv enctool $PATH
 chmod +x $PATH/enctool && clear
